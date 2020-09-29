@@ -31,9 +31,6 @@ The goal of our (C.D.B. and J.L.-M.) project is to use improved dating technique
 
 We intend to have workflow proceed as follows. First, we intend to take advantage of the number of previously conducted Bayesian analyses of avian relationships by accessing topologies found in four recent molecular avian phylogenies (Jarvis et al. 2014; Prum et al. 2015; Kimball et al. 2019; Kuhl et al. 2020) to use as bases. We then hope to provide updated fossil calibrations using recently described early-diverging members of key candidate relatives of Opisthocomidae and putative fossil hoatzins (e.g., Mayr et al. 2011; Nesbitt et al. 2011; Ksepka et al. 2013; Mayr and Pietri 2014; Mayr 2016; Field and Hsiang 2018; Musser et al. 2019) using a divergence estimation methodology based on a recent study that attempted a similar integration of fossil and extant information (Giles et al. 2017). Age dates will be compiled from the literature. Finally, we will use phylogenetic comparative methods to compute and compare statistics assessing support (branch supports and whole-tree indices) for particular relationships between Opisthocomidae and other clades.
 
-
-The data I will use are (my own data/ data publicly available at YYY/ simulations)
-
 ## Methods
 
 The tools I used were... See analysis files at (links to analysis files).
