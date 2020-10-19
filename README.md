@@ -37,7 +37,7 @@ We intend to supplement these new age data specific to Opisthocomidae with addit
 
 We will time-calibrate the following tree topologies produced in the previously-noted studies: for Prum et al. (2015), the tree produced from the concatenated, Bayesian analysis; for Jarvis et al. (2014), the tree produced from the total-evidence nucleotide alignment partitioned by sequence type that had been analyzed with maximum likelihood under a GTR+GAMMA model, and for Kuhl et al. (2020), the 3’UTR transcriptome species tree. We will force BEAST to estimate edge lengths only by prohibiting the program from exploring topology space and apply the birth–death speciation model with default priors following Prum et al. (2015), Field et al. (2020), and others. Molecular evolutionary rates are highly variable across different bird lineages. The uncorrelated relaxed clock (UCLN), used in Prum et al. (2015) allows for rate heterogeneity among branches and is therefore an excellent model to use for bird evolution (Drummond and Rambaut 2006; Drummond et al. 2006). Non-avian outgroups (e.g., Crocodylia in Prum et al. 2015) will be pruned following previous studies to remove high rate heterogeneity that might unreasonably affect age estimation. 
 
-![Figure 1. Full calibrated tree from Bayesian analysis of 259 nuclear loci in Prum et al. 2015](/finalproject/ExaBayes_ConsensusExtendedMajorityRuleNewick_259locus.tre.png)
+[Figure 1. Full calibrated tree from Bayesian analysis of 259 nuclear loci in Prum et al. 2015](/finalproject/ExaBayes_ConsensusExtendedMajorityRuleNewick_259locus.tre.png)
 
 ## Methods
 
