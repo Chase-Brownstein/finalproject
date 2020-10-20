@@ -41,7 +41,7 @@ We will time-calibrate the following two topologies produced in the previously-n
 
 Figure 1. Full calibrated tree from Bayesian analysis of 259 nuclear loci in Prum et al. 2015. 
 
-![Figure 2. Full calibrated tree from the total-evidence nucleotide alignment in Jarvis et al. 2014]
+![Figure 2. Full calibrated tree from the total-evidence nucleotide alignment in Jarvis et al. 2014](https://github.com/Chase-Brownstein/finalproject/blob/master/Ordinal-level-genome-scale-family-tree-of-modern-birds-The-tree-was-generated-from-30.png)
 
 Figure 2. Full calibrated tree from the total-evidence nucleotide alignment in Jarvis et al. 2014. 
 
