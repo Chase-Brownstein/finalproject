@@ -82,6 +82,10 @@ We then entered the corresponding fasta file and gene tree into the BEAUTi termi
 
 Following Prum et al. (2015), we used soft maximum age bounds for runs with the fossil calibrations to allow signals in the data to overpower the priors we specified. For crown-birds, a soft maximum upper bound was set at 86.5 Ma (Late Cretaceous, Santonian) following previous studies (Prum et al. 2015; Field et al. 2020). This date represents the age of the Niobrara Formation, a marine unit which has produced numerous non-neornithine bird fossils but none representing Neornithes proper. One of the project leaders (C.D.B.) has extensively researched the vertebrate record from the eastern margin of the seaway represented by the Niobrara Formation as well as the coast of the Cretaceous Atlantic Ocean and is aware of the potential for these regions to produce neornithine birds from the Santonian and other stages of the early-middle Late Cretaceous. Thus, the soft maximum upper bound date was chosen to be consistent with the literature and is likely to change upon the discovery of neornithine bird fossils from earlier in the Cretaceous. 
 
+## NOTES FOR THURSDAY
+-Ask Prof how to include a tree that has taxa not included in the gene alignment; if this is not possible, figure out issue with using gene tree and fossil calibrations since according to the Google Groups this is not possible. 
+-Ask Prof about issues with visionizing the calibration estimated in BEAST
+
 ## Results
 
 The tree in Figure 1...
