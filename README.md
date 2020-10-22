@@ -66,14 +66,23 @@ We selected the Jarvis et al. (2014) dataset for use in the minimum viable analy
 We found these tree statistics for the example Jarvis et al. (2014) data using the following code: 
 
 #First, we navigated to the correct directory, the folder downloaded from https://github.com/FePhyFoFum/SortaDate
+
 cd Downloads/SortaDate-Master
+
 #Second, we got the root-to-tip variance, where Paleognaths was the root
+
 python src/get_var_length.py examples/genes_trees/ --flend .tre.rr --outf examples/var --outg Struthio_camelus,Tinamou_guttatus
+
 #Third, we got bipartition support 
+
 python src/get_bp_genetrees.py examples/genes_trees/ examples/Chrono_Tent_Bird_study.new --flend .tre.rr --outf examples/bp
+
 #Combine the results from the two runs 
+
 python src/combine_results.py examples/var examples/bp --outf examples/comb 
+
 #Fourth, we performed the actual shopping to get the list of good clock-like genes
+
 python src/get_good_genes.py examples/comb --max 3 --order 3,1,2 --outf examples/gg 
 
 Because our goal was to select a gene alignment to use in the Bayesian calibration of a given topology, we selected the gene corresponding to the gene tree with the highest bipartition support. This corresponded to gene 10062 in the Jarvis et al. (2014) dataset (root-to-tip variance = 0.00108223, TL = 1.57155, bipartition support = 0.391304347826). Among the three good genes selected, this one had the second lowest tree length and the highest root-to-tip variance. The higher root-to-tip variance value found for 10062 makes sense in the context of avian evolution, which in the Jarvis et al. (2014) final phylogeny was characterized by low evolutionary rates deep in the tree. 
