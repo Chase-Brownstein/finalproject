@@ -35,7 +35,7 @@ We intend to have workflow proceed as follows. We will take advantage of the num
 
 We intend to supplement these new age data specific to Opisthocomidae with additional novel calibrations of other Neornithine clades. In the past half-decade, several important fossils have been reported and reinterpreted as some of the oldest representatives early-diverging neornithine clades. For example, the recovery of the mostly complete skull and partial skeleton of *Asteriornis* from the Maastrichtian of Belgium provides a hard minimum age for the divergence of the Galloanseres, the most basal neognath clade, within the Late Cretaceous (Field et al. 2020). Reevaluation of an extensive collection of avian postcrania from the late Maastrichtian New Egypt and Hornerstown Formations of New Jersey (Brownstein et al. in review) further supports the hypothesis that Galloanserans were diversifying before the Cretaceous-Paleogene extinction. Reinterpretation of Paleogene fossils has confirmed that many extant neoavian clades, including  mousebirds (Ksepka et al. 2017), gruiforms (cranes and relatives; Musser et al. 2019), turacos (Field and Hsiang. 2018),  penguins (Slack et al. 2006; Mayr et al. 2017), strisoreans (Nesbitt et al. 2011; Ksepka et al. 2013; Chen et al. 2019), and cariamiforms (Mayr 2016), diverged early. Precise dates for individual sites and fossils will be taken from these studies and the literature if available. If not, calibrations will use the currently standard dates for the smallest interval on the geological time scale within which the fossils can be placed (i.e., if the fossil does not have precise dates but is from the Oligocene, we will use GTS dates for that epoch). Previously used fossil calibrations for the three selected phylogenies will be systematically assessed. If studies published more recently than the foundational phylogenies include older calibration dates for specific clades, fossil calibration data will be replaced with the newer calibrations. Our goal is to integrate these new data into the calibration of well-supported molecular trees and more confidently estimate the divergences times in and around Opisthocomidae.   
 
-We will time-calibrate the following gene trees selected based on their similarity to topologies produced in the previously-noted studies: for Prum et al. (2015), the tree produced from the concatenated, Bayesian analysis; for Jarvis et al. (2014), the tree produced from the total-evidence nucleotide alignment partitioned by sequence type that had been analyzed with maximum likelihood under a GTR+GAMMA model. We will force BEAST to estimate edge lengths only by prohibiting the program from exploring topology space and apply the birth–death speciation model with default priors following Prum et al. (2015), Field et al. (2020), and others. Molecular evolutionary rates are highly variable across different bird lineages. The Random Local Clock (RLC) allows for rate heterogeneity among branches that is intermediate between the relaxed clock used by Prum et al. (2015) and the Strict Clock model, where every branch on the tree evolves at the same rate. The RLC is therefore an excellent compromise model for working with the highly heterogenous rates among birds and with sequences selected for their clock-like nature (Drummond and Rambaut 2006; Drummond et al. 2006). Non-avian outgroups (e.g., Crocodylia in Prum et al. 2015) will be pruned following previous studies to remove high rate heterogeneity that might unreasonably affect age estimation. 
+We will time-calibrate the following gene trees selected based on their similarity to topologies produced in the previously-noted studies: for Prum et al. (2015), the tree produced from the concatenated, Bayesian analysis; for Jarvis et al. (2014), the tree produced from the total-evidence nucleotide alignment partitioned by sequence type that had been analyzed with maximum likelihood under a GTR+GAMMA model. We will force BEAST to estimate edge lengths only by prohibiting the program from exploring topology space and apply the birth–death speciation model with default priors following Prum et al. (2015), Field et al. (2020), and others. Molecular evolutionary rates are highly variable across different bird lineages. The Relaxed Clock allows for rate heterogeneity among branches and is therefore an excellent  model for working with the highly heterogenous rates among birds (Prum et al. 2015). Non-avian outgroups (e.g., Crocodylia in Prum et al. 2015) will be pruned following previous studies to remove high rate heterogeneity that might unreasonably affect age estimation. 
 
 ![Figure 1. Full calibrated tree from Bayesian analysis of 259 nuclear loci in Prum et al. 2015](https://github.com/Chase-Brownstein/finalproject/blob/master/ExaBayes_ConsensusExtendedMajorityRuleNewick_259locus.tre.png)
 
@@ -46,7 +46,7 @@ Figure 1. Full calibrated tree from Bayesian analysis of 259 nuclear loci in Pru
 Figure 2. Full calibrated tree from the total-evidence nucleotide alignment in Jarvis et al. 2014. 
 
 
-## Methods and minimum viable analysis
+## Methods
 
 We systematically reevaluated and pruned taxa from the fossil calibration lists provided by Jarvis et al. (2014) and Prum et al. (2015). First, fossil calibrations in Jarvis et al. (2014) and Prum et al. (2015) based on taxa for which fragmentary or isolated postcranial material consistuted holotypes were pruned in order to limit phylogenetic uncertainty. This guideline was primarily based on the observation by both project authors (C.D.B and J.L.-M.) and colleagues that isolated bird fossils from historical collections often possess complicated taxonomic histories and are difficult to place at low supraspecific levels. This pruning guideline allowed us to produce a dataset of fossil taxa that could provide 'hard' calibration ages. *Lithoptila abdounensis*, known from an excellently preserved neurocranium, and *Struthio coppensi*, known from a complete hindlimb, were the most incomplete fossil taxa in our pruned 'hard' calibration dataset. We also used several records as 'soft' fossil calibrations for clades at the base of the extant avian tree (Paleognathae, Galloanseres; Figure 1) and the clade of interest Opisthocomidae. A possible Paleognath scapula used in Jarvis et al. (2014) and the holotype tibiotarsus of *Laornis edvardsanius* from the Hornerstown Formation of New Jersey were included as soft calibrations for some runs. The authors have personally examined and phylogenetically assessed the *Laornis* holotype (Brownstein et al. in review) and felt confident about including these specimens as calibrators for one analysis. To this end, we also added several new calibrations based on recently recovered fossils placed in clades allied with the Opisthocomidae. These include Galloanseres, Cariamiformes, and Gruiformes. Finally, we added the calibrations used in Ksepka et al. (2017) and Olivieros et al. (2019). The final dataset comprised 45 distinct fossil calibration ages spanning the avian tree of life. These are shown in Table 1. Key fossils used in the revised calibration lists are figured below. 
 
@@ -62,10 +62,13 @@ Figure 4. "Paracrax" wetmorei from the Late Eocene Willwood Formation of North A
 
 In order to properly handle the massive datasets used by Jarvis et al. (2014) and Prum et al. (2015), we took advantage of the recently published SortaDate package (Installation information available at: https://github.com/FePhyFoFum/sortadate; Smith et al. 2018) to identify regions of the dataset that behaved in clock-like fashion. Although this methodology reduces our ability to assess the absolute accuracy of our calibrations, it does allow us to efficienty compare the effects of different calibrations, which is the goal.
 
+# Minimum Viable Analysis
 We selected the Jarvis et al. (2014) dataset for use in the minimum viable analysis. This was advantageous given that this dataset was already used in the example script for SortaDate on the repository corresponding to the package. SortaDate shops for genes that seem to match the molecular clock using three statistics: the variance of root-to-tip lengths in gene trees, the similarity of individual gene trees to a given species tree as found using a bipartition, and gene tree length.
 We found these tree statistics for the example Jarvis et al. (2014) data using the following code: 
 
 #First, we navigated to the correct directory, the folder downloaded from https://github.com/FePhyFoFum/SortaDate
+#This project folder already has data for the Jarvis et al. dataset
+#So, for the Prum et al. 2015 dataset, one must replace the 'examples' folder with the gene and species trees from that analysis
 
 cd Downloads/SortaDate-Master
 
@@ -87,13 +90,41 @@ python src/get_good_genes.py examples/comb --max 3 --order 3,1,2 --outf examples
 
 Because our goal was to select a gene alignment to use in the Bayesian calibration of a given topology, we selected the gene corresponding to the gene tree with the highest bipartition support. This corresponded to gene 10062 in the Jarvis et al. (2014) dataset (root-to-tip variance = 0.00108223, TL = 1.57155, bipartition support = 0.391304347826). Among the three good genes selected, this one had the second lowest tree length and the highest root-to-tip variance. The higher root-to-tip variance value found for 10062 makes sense in the context of avian evolution, which in the Jarvis et al. (2014) final phylogeny was characterized by low evolutionary rates deep in the tree. 
 
-We then entered the corresponding fasta file and gene tree into the BEAUTi terminal to build an XML file for analysis in BEAST v. 2.5.2 (Drummond and Rambout, 2007) . We used the default Gamma Site model and set all the operators to 0 to stop BEAST from estimating topology. We set the chain length to 10 million, produced an XML file, and entered it into the BEAST terminal for analysis. 
+We then entered the corresponding fasta file into BEAUTi terminal to build an XML file for analysis in BEAST v. 2.5.2 (Drummond and Rambout, 2007). Following Prum et al. (2015), we entered the General Time Reversable Model into the Substitution Model box on the Site Model tab. We then selected the Random Local Clock in the Clock Models tab and entered in the starting tree in the Starting Tree tab and unchecked 'Adjust Tip Heights' to fix the tree. One issue encountered when entering the data into BEAUTi was that the gene selected in the SortaDate analysis lacked the tip 'Gavia' from the tree produced from the total-evidence nucleotide alignment partitioned by sequence type that had been analyzed with maximum likelihood under a GTR+GAMMA model in Jarvis et al. 2014. We also needed to drop edge lengths for the calibration. We elected to do these in the R package ape:
 
-Following Prum et al. (2015), we used soft maximum age bounds for runs with the fossil calibrations to allow signals in the data to overpower the priors we specified. For crown-birds, a soft maximum upper bound was set at 86.5 Ma (Late Cretaceous, Santonian) following previous studies (Prum et al. 2015; Field et al. 2020). This date represents the age of the Niobrara Formation, a marine unit which has produced numerous non-neornithine bird fossils but none representing Neornithes proper. One of the project leaders (C.D.B.) has extensively researched the vertebrate record from the eastern margin of the seaway represented by the Niobrara Formation as well as the coast of the Cretaceous Atlantic Ocean and is aware of the potential for these regions to produce neornithine birds from the Santonian and other stages of the early-middle Late Cretaceous. Thus, the soft maximum upper bound date was chosen to be consistent with the literature and is likely to change upon the discovery of neornithine bird fossils from earlier in the Cretaceous. 
+#use package ape
 
-## NOTES FOR THURSDAY
--Ask Prof how to include a tree that has taxa not included in the gene alignment; if this is not possible, figure out issue with using gene tree and fossil calibrations since according to the Google Groups this is not possible. 
--Ask Prof about issues with visionizing the calibration estimated in BEAST
+library(ape)
+
+#specify the newick file 
+
+newick = "((Tinamou_guttatus:83.7636,Struthio_camelus:83.7636):17.8749,((Anas_platyrhynchos:65.7832,(Gallus_gallus:27.9122,Meleagris_gallopavo:27.9122):37.871):22.7881,(((Phoenicopterus_ruber:56.3318,Podiceps_cristatus:56.3318):11.7895,(Columba_livia:65.6081,(Pterocles_gutturalis:61.612,Mesitornis_unicolor:61.612):3.9961):2.5132):1.0721,(((Cuculus_canorus:64.898,(Tauraco_erythrolophus:62.2562,Chlamydotis_macqueenii:62.2562):2.6418):1.8403,(Antrostomus_carolinensis:62.9396,(Chaetura_pelagica:43.6514,Calypte_anna:43.6514):19.2882):3.7987):1.2111,((Ophisthocomus_hoazin:65.9286,(Charadrius_vociferus:64.5754,Balearica_regulorum:64.5754):1.3532):0.806,(((Phaethon_lepturus:60.021,Eurypyga_helias:60.021):4.5043,(Gavia_stellata:62.8008,((Fulmarus_glacialis:59.9864,(Pygoscelis_adeliae:22.9983,Aptenodytes_forsteri:22.9983):36.988):1.3657,(Phalacrocorax_carbo:58.9221,(Nipponia_nippon:57.5582,(Egretta_garzetta:55.2426,Pelecanus_crispus:55.2426):2.3156):1.3639):2.4299):1.4487):1.7245):0.9182,((Cariama_cristata:62.1029,(Falco_peregrinus:59.9929,((Melopsittacus_undulatus:28.8663,Nestor_notabilis:28.8663):25.5893,(Acanthisitta_chloris:38.4779,(Manacus_vitellinus:31.817,(Corvus_brachyrhynchos:20.526,(Geospiza_fortis:9.9154,Taeniopygia_guttata:9.9154):10.6105):11.291):6.6609):15.9777):5.5373):2.11):1.3723,((Cathartes_aura:60.3491,(Haliaeetus_albicilla:5.9922,Haliaeetus_leucocephalus:5.9922):54.3569):2.4229,(Tyto_alba:61.6492,(Colius_striatus:59.9419,(Leptosomus_discolor:58.5719,(Apaloderma_vittatum:55.0956,(Buceros_rhinoceros:51.9849,(Picoides_pubescens:42.3418,Merops_nubicus:42.3418):9.6431):3.1107):3.4763):1.37):1.7073):1.1228):0.7031):1.9684):1.2911):1.2148):1.244):19.3779):13.0671)"
+
+#read the newick file 
+
+tree<-read.tree(text=newick)
+
+#drop the tip 
+
+tree<-drop.tip(tree, "Gavia_stellata")
+ 
+#check to see if the taxon has been dropped 
+
+plot(tree)
+
+#Remove edge lengths
+
+tree$edge.length<-NULL
+
+#check
+
+plot(tree)
+
+#write file
+
+write.tree(tree, file = "Jarvis_tree")
+
+To ensure we fixed the topology and stopped BEAST from changing it, we also set the Wilson-Balding, subtree slide, and narrow and wide exchange operators to 0 in the Operators tab (Prum et al. 2015). We used the Birth-Death model in our Priors and entered the calibration ages following a lognormal distribution (specified in the 'model parameters' box) into Clade Ages. Following Prum et al. (2015), we navigated to the Priors tab in BEAUTi and added a loose gamma prior to the node including all Neornithes. We then adjusted the distribution so 97.5% of the calibration density fell later than 86.5 Ma, the upper age estimate of the Niobrara Formation in the western United States (Prum et al. 2015; Field et al. 2020). This was done because the Niobrara Formation preserves an excellent record of non-neornithine birds but to date has not produced a single neornithine specimen. We accomplished this by changing the value of alpha to 4.75 and keeping beta constant at 2. We set the chain length to 10 million and saved to an XML file. 
 
 ## Results
 
