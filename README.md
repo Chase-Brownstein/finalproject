@@ -69,7 +69,7 @@ In order to properly handle the massive datasets used by Jarvis et al. (2014) an
 # Minimum Viable Analysis
 We selected the Jarvis et al. (2014) dataset with "hard" fossil calibrations only (i.e., the dataset excluding Bathornis grallator, "Paracrax wetmorei," and the Hornerstown "Lithornis sp." material) for use in the minimum viable analysis. This was advantageous given that this dataset was already used in the example script for SortaDate on the repository corresponding to the package. SortaDate shops for genes that seem to match the molecular clock using three statistics: the variance of root-to-tip lengths in gene trees, the similarity of individual gene trees to a given species tree as found using a bipartition, and gene tree length. We found these tree statistics for the example Jarvis et al. (2014) data using the following code: 
 
-#First, we navigated to the correct directory, the folder downloaded from https://github.com/FePhyFoFum/SortaDate
+#First, we navigated to the correct directory, the folder downloaded from https://github.com/FePhyFoFum/SortaDate. We also downloaded the phyx program on the terminal using Homebrew (commands here: https://github.com/FePhyFoFum/phyx)
 #This project folder already has data for the Jarvis et al. dataset
 #So, for the Prum et al. 2015 dataset, one must replace the 'examples' folder with the gene and species trees from that analysis
 
