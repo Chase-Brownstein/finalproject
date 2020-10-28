@@ -114,7 +114,7 @@ Figure 5. Maximum clade credibility tree from the time calibration of the Jarvis
 
 The time-calibrated maximum clade credibility tree from the analysis of the Jarvis et al. (2014) dataset with *soft* calibrations gave similar, if slightly older, divergence times as the hard calibration tree. The Paleognath-Neognath split was estimated at approximately 122-123 Ma, although the 95% confidence intervals ranged from 137-107 Ma (Figure 6). Opisthocomidae was found to diverge from the Gruiformes+Charadriiformes clade slightly before 100 Ma. 
 
-![Figure 6.](https://github.com/Chase-Brownstein/finalproject/blob/master/Jarvissoftcal_0001.jpg)
+![Figure 6.](
 Figure 6. Maximum clade credibility tree from the time calibration of the Jarvis et al. 2014 phylogeny using new soft calibration dates and the selected 'clock-like gene. Blue bars indicate 95% confidence intervals for divergence times. 
 
 ## Discussion
