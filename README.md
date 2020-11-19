@@ -25,11 +25,11 @@ We intend to supplement these new age data specific to Opisthocomidae with addit
 
 We will time-calibrate the following gene trees selected based on their similarity to topologies produced in the previously-noted studies: for Prum et al. (2015), the tree produced from the concatenated, Bayesian analysis; for Jarvis et al. (2014), the tree produced from the total-evidence nucleotide alignment partitioned by sequence type that had been analyzed with maximum likelihood under a GTR+GAMMA model. We will force BEAST to estimate edge lengths only by prohibiting the program from exploring topology space and apply the birth–death speciation model with default priors following Prum et al. (2015), Field et al. (2020), and others. Molecular evolutionary rates are highly variable across different bird lineages. The Relaxed Clock allows for rate heterogeneity among branches and is therefore an excellent  model for working with the highly heterogenous rates among birds (Prum et al. 2015). Non-avian outgroups (e.g., Crocodylia in Prum et al. 2015) will be pruned following previous studies to remove high rate heterogeneity that might unreasonably affect age estimation. 
 
-![Figure 1. Full calibrated tree from Bayesian analysis of 259 nuclear loci in Prum et al. 2015](https://github.com/Chase-Brownstein/finalproject/blob/master/ExaBayes_ConsensusExtendedMajorityRuleNewick_259locus.tre.png)
+![Figure 1. Full calibrated tree from Bayesian analysis of 259 nuclear loci in Prum et al. 2015](https://github.com/Chase-Brownstein/finalproject/blob/master/Figure%201.jpg)
 
 **Figure 1. Full calibrated maximum clade credibility tree generated from the Bayesian analysis of 259 nuclear loci in Prum et al. (2015).** 
 
-![Figure 2. Full calibrated tree from the total-evidence nucleotide alignment in Jarvis et al. 2014](https://github.com/Chase-Brownstein/finalproject/blob/master/Ordinal-level-genome-scale-family-tree-of-modern-birds-The-tree-was-generated-from-30.png)
+![Figure 2. Full calibrated tree from the total-evidence nucleotide alignment in Jarvis et al. 2014](https://github.com/Chase-Brownstein/finalproject/blob/master/Figure%202.jpg)
 
 **Figure 2. Full calibrated maximum clade credibility tree from the Bayesian analysis of the total-evidence nucleotide alignment in Jarvis et al. (2014).** 
 
@@ -45,7 +45,7 @@ The final dataset comprised 45 distinct fossil calibration ages spanning the avi
 ![Table 1.](https://github.com/Chase-Brownstein/finalproject/blob/master/Hoatzin%20Phylogenetic%20Data%20.xlsx) 
 Table 1. Revision calibration list. 
 
-![Figure 3.](https://github.com/Chase-Brownstein/finalproject/blob/master/Figure%203%20bird%20assemblage%20copy-0.png)
+![Figure 3.](https://github.com/Chase-Brownstein/finalproject/blob/master/Figure%203.jpg)
 
 **Figure 3. Key fossil calibration specimens representing the earliest definite Neornithine birds. Holotype tibiotarsus of *Laornis edvardsanius* (A) from the latest Maastrichtian Hornerstown Formation of New Jersey showing key features uniting it with neornithines. Holotype cranium of *Asteriornis maastrichtiensis* from the middle Maastrichtian Maastricht Formation of Belgium in multiple views (from Field et al. 2020).**
 
