@@ -84,6 +84,8 @@ The calibrated maximum clade credibility tree from the Bayesian analysis of the 
 ![Figure 6.](    ). 
 **Figure 5. Maximum clade credibility tree from the time calibration of the Prum et al. (2015) phylogeny using new hard calibration dates and the selected 'clock-like gene. Blue bars indicate 95% confidence intervals for divergence times. Asteroid symbol indicates the date of the K-Pg extinction event.**
 
+In analysis of locus 184 of the Prum et al. (2015) dataset using the soft calibration dataset, the Opisthocomidae was found to diverge 76.5727 million years ago, approximately 0.4 million years later than the divergence of the Cariamidae from all other clades at 76.985 Ma. Comparison of the dates found in the soft calibration dataset with those found from the analysis the hard calibration dataset on the Prum et al. (2015) data show a similar pattern to the comparisons between the Jarvis et al. (2014) runs. Although divergence dates are generally placed older in time in the soft calibration run, the shifts in divergence dates found for clades of interest like the Opisthocomidae, Cariamidae, Musophagidae, and Galloanseres did not shift more than 2 million years in time.  
+
 ![Figure 7.](    ). 
 **Figure 5. Maximum clade credibility tree from the time calibration of the Prum et al. (2015) phylogeny using new soft calibration dates and the selected 'clock-like gene. Blue bars indicate 95% confidence intervals for divergence times. Asteroid symbol indicates the date of the K-Pg extinction event.**
 
