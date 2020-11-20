@@ -81,19 +81,19 @@ By slightly modifying the fossil calibration priors inputted into BEAST from the
 ## Calibrations of the Prum et al. dataset  
 The calibrated maximum clade credibility tree from the Bayesian analysis of the selected gene from the Prum et al. (2015) was generally similar to that found in the analysis of the Jarvis et al. (2014) in the divergence times given for major clades within Neornithes (Fig. 7). In the analysis using the hard calibration dataset, the majority of branches in Neoaves were found to diverge either during the Late Campanian to Maastrichtian of the Cretaceous or in the earliest Paleogene. This result approximates that found in Prum et al. (2015), where the explosive radiations of much of extant bird diversity were dated to just after the Cretaceous-Paleogene boundary. Opisthocomidae was found to diverge from the rest of Inopinaves 75.0894 million years ago, whereas the divergence date of Cariamidae was placed 76.9218 million years ago. It is important to note that the gene tree topology for locus 184 differs in several ways from the final tree produced in Prum et al. (2015). Cariamidae is placed in a clade that diverges closer to the root of Neornithes than the Opisthocomidae in the locus 184 tree, whereas the opposite is the case in the final Prum et al. (2015) tree. Interestingly, the divergence date for Anseriformes from Galliformes was placed at 69.3671 Ma. Given that this group, the Galloanseres, is the only one for which a definite Mesozoic member is known, this result seems to evince the importance of well-characterized early fossil calibrators in resolving divergence date uncertainty in the early evolution of neornithine birds. 
 
-![Figure 7.](https://github.com/Chase-Brownstein/finalproject/blob/master/Figure%207.jpg). 
+![Figure 7.](https://github.com/Chase-Brownstein/finalproject/blob/master/Figure%207.jpg)
 **Figure 7. Maximum clade credibility tree from the time calibration of the Prum et al. (2015) phylogeny using new hard calibration dates and the selected 'clock-like gene. Blue bars indicate 95% confidence intervals for divergence times. Asteroid symbol indicates the date of the K-Pg extinction event.**
 
 In analysis of locus 184 of the Prum et al. (2015) dataset using the soft calibration dataset (Fig. 8), the Opisthocomidae was found to diverge 76.5727 million years ago, approximately 0.4 million years later than the divergence of the Cariamidae from all other clades at 76.985 Ma. Comparison of the dates found in the soft calibration dataset with those found from the analysis the hard calibration dataset on the Prum et al. (2015) data show a similar pattern to the comparisons between the Jarvis et al. (2014) runs. Although divergence dates are generally placed older in time in the soft calibration run, the shifts in divergence dates found for clades of interest like the Opisthocomidae, Cariamidae, and Galloanseres (Anseriformes-Galliformes split = 67.5992 Ma) did not shift more than 2 million years in time. 
 
-![Figure 8.](https://github.com/Chase-Brownstein/finalproject/blob/master/Figure%208.jpg). 
+![Figure 8.](https://github.com/Chase-Brownstein/finalproject/blob/master/Figure%208.jpg)
 **Figure 8. Maximum clade credibility tree from the time calibration of the Prum et al. (2015) phylogeny using new soft calibration dates and the selected 'clock-like gene. Blue bars indicate 95% confidence intervals for divergence times. Asteroid symbol indicates the date of the K-Pg extinction event.**
 
 ## Likelihood and posterior estimates
 
 The log-likelihood values for the four different analyses generally converged upon values well, as shown by the fairly normal marginal density distributions in Figure 8. The posterior values, however, did not converge to particular values over the 10 million generations specified. ESS values for both were less than 200. The Jarvis et al. (2014) analyses had marginal density distributions for the posterior value that were notably less skewed than those found for the analyses of the Prum et al. (2015) dataset. This probably reflects the larger size of the Prum et al. (2015) dataset and the greater number of priors used for calibration. 
 
-![Figure 9.](https://github.com/Chase-Brownstein/finalproject/blob/master/Figure%209.jpg).
+![Figure 9.](https://github.com/Chase-Brownstein/finalproject/blob/master/Figure%209.jpg)
 **Figure 9. Marginal density plots of posterior and log-likelihood values generated in Tracer v. 1.7.1 for each of the four time-calibration analysis conducted in BEAST.**  
 
 
