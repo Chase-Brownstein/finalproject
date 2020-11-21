@@ -197,3 +197,7 @@ Although the chronograms generated using these early representatives support the
 35. Mayr G, and De Pietri VL. 2014. Earliest and first Northern Hemispheric hoatzin fossils substantiate Old World origin of a “Neotropic endemic”. Naturwissenschaften 101, 143–148. DOI: https://doi.org/10.1007/s00114-014-1144-8
 
 36. Field DJ, et al. 2020. Timing the extant avian radiation: The rise of modern birds, and the importance of modeling molecular rate variation. Bulletin of the American Museum of Natural History 40, 159-181. URL: http://digitallibrary.amnh.org/handle/2246/7237
+
+37. Benton MJ, and Donoghue PCJ. 2007. Paleontological evidence to date the tree of life. Molecular Biology and Evolution 24(1):26–53.
+
+38. Ho SYW, Phillips MJ. 2009. Accounting for calibration uncertainty in phylogenetic estimation of evolutionary divergence times. Systematic Biology 58(3):367–80.
