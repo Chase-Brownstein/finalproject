@@ -1,13 +1,4 @@
 # Phylogenetic Biology - Final Project
-
-## Guidelines - you can delete this section before submission
-
-- Use the stubs below to write up your final project. Alternatively, if you would like the writeup to be an executable document (with [knitr](http://yihui.name/knitr/), [jupytr](http://jupyter.org/), or other tools), you can create it as a separate file and put a link to it here in the readme.
-
-- For information on formatting text files with markdown, see https://guides.github.com/features/mastering-markdown/ . You can use markdown to include images in this document by linking to files in the repository, eg `![GitHub Logo](/images/logo.png)`.
-
-- The project must be entirely reproducible. In addition to the results, the repository must include all the data (or links to data) and code needed to reproduce the results.
-
 # Revealing the phylogenetic position of the Hoatzin (Opisthocomidae) using novel calibrations of Bayesian analyses 
 
 ## Introduction and Goals
