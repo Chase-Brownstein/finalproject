@@ -38,9 +38,9 @@ Table 1. Revision calibration list.
 
 **Figure 3. Key fossil calibration specimens representing the earliest definite Neornithine birds. Holotype tibiotarsus of *Laornis edvardsanius* (A) from the latest Maastrichtian Hornerstown Formation of New Jersey showing key features uniting it with neornithines. Holotype cranium of *Asteriornis maastrichtiensis* from the middle Maastrichtian Maastricht Formation of Belgium in multiple views (from Field et al. 2020).**
 
-![Figure 4.](https://github.com/Chase-Brownstein/finalproject/blob/master/Figure%204.png)
+![Figure 4.](https://github.com/Chase-Brownstein/finalproject/blob/master/Figure%204.jpg)
 
-**Figure 4. "Paracrax" wetmorei from the Late Eocene Willwood Formation of North America, an important fossil calibration for timing the origins of the hoatzin clade Opisthocomidae. Preliminary skeletal (A), humerus in (B) medial and (C) lateral views, (D) ulna, (E) coracoid, (F) scapula, (G) sternum, and (H) synacrum.** 
+**Figure 4. "Paracrax" wetmorei from the Late Eocene Willwood Formation of North America, an important fossil calibration for timing the origins of the hoatzin clade Opisthocomidae. Preliminary skeletal and images of select bones from Cracraft (1968).**
 
 ## Selecting clock-like genes
 In order to efficiently handle the massive datasets used by Jarvis et al. (2014) and Prum et al. (2015), we took advantage of the recently published SortaDate package (Installation information available at: https://github.com/FePhyFoFum/sortadate; Smith et al. 2018) to identify regions of the dataset that behaved in clock-like fashion. Although this methodology reduces our ability to assess the absolute accuracy of our calibrations, it does allow us to efficienty compare the effects of different calibrations, which is the goal.
@@ -176,28 +176,30 @@ C.D.B. thanks Jacob Berv for recommending the SortaDate package as a way to sort
 
 25. Chen A, et al. 2019. Total-evidence framework reveals complex morphological evolution in nightbirds (Strisores). Diversity 11(9),143.
 
-26. Mayr G, and De Pietri VL. 2014. Earliest and first Northern Hemispheric hoatzin fossils substantiate Old World origin of a “Neotropic endemic”. Naturwissenschaften 101(2), 143-148. DOI: https://doi.org/10.1007/s00114-014-1144-8
+26. Oliveros CH, et al. 2019. Earth history and the passerine superradiation. Proceedings of the National Academy of Sciences 116(16), 7916-7925.
 
-27. Drummond AJ, and Rambaut A. 2007. BEAST: Bayesian evolutionary analysis by sampling trees. BMC Evolutionary Biology 7(1), 1-8. DOI: https://doi.org/10.1186/1471-2148-7-214
+27. Cracraft JL. 1968. A review of the Bathornithidae (Aves, Gruiformes), with remarks on the relationships of the suborder Cariamae. American Museum Novitates  2326, 1-46. 
 
-28. Drummond AJ, et al. 2006. Relaxed phylogenetics and dating with confidence. PLoS Biology 4(5), e88. DOI: https://doi.org/10.1371/journal.pbio.0040088. 
+28. Smith SA, Brown JW, and Walker JF. 2018. So many genes, so little time: A practical approach to divergence-time estimation in the genomic era. PloS One 13(5), e0197433.
 
-29. Field DJ, et al. 2018. Early evolution of modern birds structured by global forest collapse at the end-Cretaceous mass extinction. Current Biology 28(11), 1825-1831. DOI: https://doi.org/10.1016/j.cub.2018.04.062 
+29. Drummond AJ, and Rambaut A. 2007. BEAST: Bayesian evolutionary analysis by sampling trees. BMC Evolutionary Biology 7(1), 1-8. DOI: https://doi.org/10.1186/1471-2148-7-214
 
-30. Field DJ, et al. 2018. Complete Ichthyornis skull illuminates mosaic assembly of the avian head. Nature 557(7703),96-100. DOI: https://doi.org/10.1038/s41586-018-0053-y 
+30. Drummond AJ, et al. 2006. Relaxed phylogenetics and dating with confidence. PLoS Biology 4(5), e88. DOI: https://doi.org/10.1371/journal.pbio.0040088. 
 
-31. Clarke JA, et al. 2005. Definitive fossil evidence for the extant avian radiation in the Cretaceous. Nature 433(7023), 305-308. DOI: https://doi.org/10.1038/nature03150
+31. Field DJ, et al. 2018. Early evolution of modern birds structured by global forest collapse at the end-Cretaceous mass extinction. Current Biology 28(11), 1825-1831. DOI: https://doi.org/10.1016/j.cub.2018.04.062 
 
-32. Clarke JA, et al. 2016. Fossil evidence of the avian vocal organ from the Mesozoic. Nature 538(7626):502-505. DOI: https://doi.org/10.1038/nature19852
+32. Field DJ, et al. 2018. Complete Ichthyornis skull illuminates mosaic assembly of the avian head. Nature 557(7703),96-100. DOI: https://doi.org/10.1038/s41586-018-0053-y 
 
-33. Clarke JA. 2004. Morphology, phylogenetic taxonomy, and systematics of Ichthyornis and Apatornis (Avialae: Ornithurae). Bulletin of the American Museum of Natural History 286, 1-179. DOI: https://doi.org/10.1206/0003-0090(2004)286
+33. Clarke JA, et al. 2005. Definitive fossil evidence for the extant avian radiation in the Cretaceous. Nature 433(7023), 305-308. DOI: https://doi.org/10.1038/nature03150
 
-34. Longrich NR, Tokaryk T, and Field DJ. 2011. Mass extinction of birds at the Cretaceous–Paleogene (K–Pg) boundary. Proceedings of the National Academy of Sciences, 108(37), 15253-15257. DOI: https://doi.org/10.1073/pnas.1110395108
+34. Clarke JA, et al. 2016. Fossil evidence of the avian vocal organ from the Mesozoic. Nature 538(7626), 502-505. DOI: https://doi.org/10.1038/nature19852
 
-35. Mayr G, and De Pietri VL. 2014. Earliest and first Northern Hemispheric hoatzin fossils substantiate Old World origin of a “Neotropic endemic”. Naturwissenschaften 101, 143–148. DOI: https://doi.org/10.1007/s00114-014-1144-8
+35. Clarke JA. 2004. Morphology, phylogenetic taxonomy, and systematics of Ichthyornis and Apatornis (Avialae: Ornithurae). Bulletin of the American Museum of Natural History 286, 1-179. DOI: https://doi.org/10.1206/0003-0090(2004)286
 
-36. Field DJ, et al. 2020. Timing the extant avian radiation: The rise of modern birds, and the importance of modeling molecular rate variation. Bulletin of the American Museum of Natural History 40, 159-181. URL: http://digitallibrary.amnh.org/handle/2246/7237
+36. Longrich NR, Tokaryk T, and Field DJ. 2011. Mass extinction of birds at the Cretaceous–Paleogene (K–Pg) boundary. Proceedings of the National Academy of Sciences, 108(37), 15253-15257. DOI: https://doi.org/10.1073/pnas.1110395108
 
-37. Benton MJ, and Donoghue PCJ. 2007. Paleontological evidence to date the tree of life. Molecular Biology and Evolution 24(1):26–53.
+37. Field DJ, et al. 2020. Timing the extant avian radiation: The rise of modern birds, and the importance of modeling molecular rate variation. Bulletin of the American Museum of Natural History 40, 159-181. URL: http://digitallibrary.amnh.org/handle/2246/7237
 
-38. Ho SYW, Phillips MJ. 2009. Accounting for calibration uncertainty in phylogenetic estimation of evolutionary divergence times. Systematic Biology 58(3):367–80.
+38. Benton MJ, and Donoghue PCJ. 2007. Paleontological evidence to date the tree of life. Molecular Biology and Evolution 24(1), 26–53.
+
+39. Ho SYW, Phillips MJ. 2009. Accounting for calibration uncertainty in phylogenetic estimation of evolutionary divergence times. Systematic Biology 58(3), 367–380.
