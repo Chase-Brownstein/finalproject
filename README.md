@@ -32,7 +32,7 @@ We also used several incomplete records as 'soft' fossil calibrations for clades
 Precise dates for newly introduced fossil calibrations were taken from the literature referenced in Table 1. The final dataset comprised 45 distinct fossil calibration ages spanning the avian tree of life and is included in this repository as Hoatzin_calibrations.xlsx . 
 
 ![Table 1.](https://github.com/Chase-Brownstein/finalproject/blob/master/Hoatzin%20Phylogenetic%20Data%20.xlsx) 
-Table 1. Revision calibration list. 
+**Table 1. Revision calibration list.** 
 
 ![Figure 3.](https://github.com/Chase-Brownstein/finalproject/blob/master/Figure%203.jpg)
 
@@ -104,6 +104,18 @@ The marginal density distributions for the posterior values in the analyses usin
 **Figure 9. Marginal density plots of posterior and log-likelihood values generated in Tracer v. 1.7.1 for each of the four time-calibration analysis conducted in BEAST.**  
 
 
+![Figure 10.](https://github.com/Chase-Brownstein/finalproject/blob/master/Figure%210.jpg)
+**Figure 10. Trace for posterior and log-likelihood values generated in Tracer v. 1.7.1 for each of the four time-calibration analysis conducted in BEAST.**  
+
+
+| Analysis      | Posterior ESS | Likelihood ESS |
+| ------------- | ------------- |----------------|
+| Jarvis et al. hardcal |4|23|
+| Jarvis et al. softcal |4|26|
+| Prum et al. hardcal |3|125|
+| Prum et al. softcal |3|34|
+**Table 2. ESS values reported in Tracer v. 1.7.1 for each of the four time-calibration analysis conducted in BEAST.**  
+
 ## Discussion
 Dating the early divergences of birds has remained a major challenge in ornithology. Recent studies have emphasized the importance of testing different calibration schemes given the uncertain phylogenetic positions of some important latest Cretaceous fossil avians (e.g., Field et al. 2020a). Berv and Field (2018) also found that the body masses of birds, when considered as continous traits, can effect estimations of the timing of the radiation or radiations that produced extant birds. Because of these issues, the description and phylogenetic analysis of early members of derived clades within Neornithes has formed a major research programme within paleoornithology over the past twenty years. These include the earliest known members of Coliiformes from the Paleogene of southwestern North America (Ksepka et al. 2017), the earliest known Galloanseran from the latest Cretaceous of Belgium (Field et al. 2020), partial skeletons of a possible early anseriform from the latest Cretaceous of Antarctica (Clarke et al. 2005; Clarke et al. 2016), and the reevaluation of the possible earliest representative of Musophagidae  from the Eocene of the Green River Formation in Wyoming (*Foro panarium*; Field and Hsiang, 2018). These discoveries have helped to substantiate a tentatively minimum bound for the divergence time of Neornithes in the middle or Late Cretaceous. The maximum bound for the age of this clade has been pushed into the middle or even Early Cretaceous, in large part based on the comprehensive review and reevaluation of important Coniacian-Santonian marine bird faunas in the western interior of North America that lack neornithines but include large numbers of closely related taxa (e.g., Clarke 2004; Longrich et al. 2011; Field et al. 2018b). 
 
@@ -174,13 +186,13 @@ C.D.B. thanks Jacob Berv for recommending the SortaDate package as a way to sort
 
 24. Ksepka DT, et al. 2013. Fossil evidence of wing shape in a stem relative of swifts and hummingbirds (Aves, Pan-Apodiformes). Proceedings of the Royal Society B: Biological Sciences 280(1761), 20130580. DOI: https://doi.org/10.1098/rspb.2013.0580
 
-25. Chen A, et al. 2019. Total-evidence framework reveals complex morphological evolution in nightbirds (Strisores). Diversity 11(9),143.
+25. Chen A, et al. 2019. Total-evidence framework reveals complex morphological evolution in nightbirds (Strisores). Diversity 11(9),143. DOI: https://doi.org/10.3390/d11090143
 
-26. Oliveros CH, et al. 2019. Earth history and the passerine superradiation. Proceedings of the National Academy of Sciences 116(16), 7916-7925.
+26. Oliveros CH, et al. 2019. Earth history and the passerine superradiation. Proceedings of the National Academy of Sciences 116(16), 7916-7925. DOI: https://doi.org/10.1073/pnas.1813206116
 
-27. Cracraft JL. 1968. A review of the Bathornithidae (Aves, Gruiformes), with remarks on the relationships of the suborder Cariamae. American Museum Novitates  2326, 1-46. 
+27. Cracraft JL. 1968. A review of the Bathornithidae (Aves, Gruiformes), with remarks on the relationships of the suborder Cariamae. American Museum Novitates  2326, 1-46. URL: http://hdl.handle.net/2246/2536
 
-28. Smith SA, Brown JW, and Walker JF. 2018. So many genes, so little time: A practical approach to divergence-time estimation in the genomic era. PloS One 13(5), e0197433.
+28. Smith SA, Brown JW, and Walker JF. 2018. So many genes, so little time: A practical approach to divergence-time estimation in the genomic era. PloS One 13(5), e0197433. DOI: https://doi.org/10.1371/journal.pone.0197433
 
 29. Drummond AJ, and Rambaut A. 2007. BEAST: Bayesian evolutionary analysis by sampling trees. BMC Evolutionary Biology 7(1), 1-8. DOI: https://doi.org/10.1186/1471-2148-7-214
 
@@ -200,6 +212,6 @@ C.D.B. thanks Jacob Berv for recommending the SortaDate package as a way to sort
 
 37. Field DJ, et al. 2020. Timing the extant avian radiation: The rise of modern birds, and the importance of modeling molecular rate variation. Bulletin of the American Museum of Natural History 40, 159-181. URL: http://digitallibrary.amnh.org/handle/2246/7237
 
-38. Benton MJ, and Donoghue PCJ. 2007. Paleontological evidence to date the tree of life. Molecular Biology and Evolution 24(1), 26–53.
+38. Benton MJ, and Donoghue PCJ. 2007. Paleontological evidence to date the tree of life. Molecular Biology and Evolution 24(1), 26–53. DOI: https://doi.org/10.1093/molbev/msl150
 
-39. Ho SYW, Phillips MJ. 2009. Accounting for calibration uncertainty in phylogenetic estimation of evolutionary divergence times. Systematic Biology 58(3), 367–380.
+39. Ho SYW, Phillips MJ. 2009. Accounting for calibration uncertainty in phylogenetic estimation of evolutionary divergence times. Systematic Biology 58(3), 367–380. DOI: 10.1093/sysbio/syp035
