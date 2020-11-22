@@ -104,7 +104,7 @@ The marginal density distributions for the posterior values in the analyses usin
 **Figure 9. Marginal density plots of posterior and log-likelihood values generated in Tracer v. 1.7.1 for each of the four time-calibration analysis conducted in BEAST.**  
 
 
-![Figure 10.](https://github.com/Chase-Brownstein/finalproject/blob/master/Figure%210.jpg)
+![Figure 10.](https://github.com/Chase-Brownstein/finalproject/blob/master/Figure%2010.jpg)
 **Figure 10. Trace for posterior and log-likelihood values generated in Tracer v. 1.7.1 for each of the four time-calibration analysis conducted in BEAST.**  
 
 **Table 2. ESS values reported in Tracer v. 1.7.1 for each of the four time-calibration analysis conducted in BEAST.**  
