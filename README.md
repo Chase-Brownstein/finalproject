@@ -96,8 +96,7 @@ In analysis of locus 184 of the Prum et al. (2015) dataset using the soft calibr
 
 ## Likelihood and posterior estimates
 
-The log-likelihood values for the four different analyses generally converged upon values well, as shown by the fairly normal marginal density distributions in Figure 8. The posterior values, however, did not converge to particular values over the 10 million generations specified. ESS values for both were less than 200. 
-The marginal density distributions for the posterior values in the analyses using the gene selected from the Prum et al. (2015) dataset appear more strongly left skewed than those from the analyses using data from Jarvis et al. (2014). This might reflect either the much larger size of the Prum et al. (2015) dataset and the greater number of priors used for calibration of the lineages included within it. 
+The log-likelihood values for the four different analyses generally converged upon values well, as shown by the fairly normal marginal density distributions in Figure 8. The posterior values, however, did not converge to particular values over the 10 million generations specified. Traces for both the posterior and likelihood values did not present the idealized 'caterpillar' shape of random movement around a particular value. Instead, the posterior value increased throughout the ten million generations and the likelihood hit clear low-value and high-value regions. ESS values for both were less than 200 (Table 2). The marginal density distributions for the posterior values in the analyses using the gene selected from the Prum et al. (2015) dataset appear more strongly left skewed than those from the analyses using data from Jarvis et al. (2014). This might reflect either the much larger size of the Prum et al. (2015) dataset and the greater number of priors used for calibration of the lineages included within it. 
 
 ![Figure 9.](https://github.com/Chase-Brownstein/finalproject/blob/master/Figure%209.jpg)
 
