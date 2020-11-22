@@ -31,8 +31,8 @@ We also used several incomplete records as 'soft' fossil calibrations for clades
 
 Precise dates for newly introduced fossil calibrations were taken from the literature referenced in Table 1. The final dataset comprised 45 distinct fossil calibration ages spanning the avian tree of life and is included in this repository as Hoatzin_calibrations.xlsx . 
 
-![Table 1.](https://github.com/Chase-Brownstein/finalproject/blob/master/Hoatzin%20Phylogenetic%20Data%20.xlsx) 
 **Table 1. Revision calibration list.** 
+![Table 1.](https://github.com/Chase-Brownstein/finalproject/blob/master/Hoatzin%20Phylogenetic%20Data%20.xlsx) 
 
 ![Figure 3.](https://github.com/Chase-Brownstein/finalproject/blob/master/Figure%203.jpg)
 
@@ -107,14 +107,13 @@ The marginal density distributions for the posterior values in the analyses usin
 ![Figure 10.](https://github.com/Chase-Brownstein/finalproject/blob/master/Figure%210.jpg)
 **Figure 10. Trace for posterior and log-likelihood values generated in Tracer v. 1.7.1 for each of the four time-calibration analysis conducted in BEAST.**  
 
-
+**Table 2. ESS values reported in Tracer v. 1.7.1 for each of the four time-calibration analysis conducted in BEAST.**  
 | Analysis      | Posterior ESS | Likelihood ESS |
 | ------------- | ------------- |----------------|
 | Jarvis et al. hardcal |4|23|
 | Jarvis et al. softcal |4|26|
 | Prum et al. hardcal |3|125|
 | Prum et al. softcal |3|34|
-**Table 2. ESS values reported in Tracer v. 1.7.1 for each of the four time-calibration analysis conducted in BEAST.**  
 
 ## Discussion
 Dating the early divergences of birds has remained a major challenge in ornithology. Recent studies have emphasized the importance of testing different calibration schemes given the uncertain phylogenetic positions of some important latest Cretaceous fossil avians (e.g., Field et al. 2020a). Berv and Field (2018) also found that the body masses of birds, when considered as continous traits, can effect estimations of the timing of the radiation or radiations that produced extant birds. Because of these issues, the description and phylogenetic analysis of early members of derived clades within Neornithes has formed a major research programme within paleoornithology over the past twenty years. These include the earliest known members of Coliiformes from the Paleogene of southwestern North America (Ksepka et al. 2017), the earliest known Galloanseran from the latest Cretaceous of Belgium (Field et al. 2020), partial skeletons of a possible early anseriform from the latest Cretaceous of Antarctica (Clarke et al. 2005; Clarke et al. 2016), and the reevaluation of the possible earliest representative of Musophagidae  from the Eocene of the Green River Formation in Wyoming (*Foro panarium*; Field and Hsiang, 2018). These discoveries have helped to substantiate a tentatively minimum bound for the divergence time of Neornithes in the middle or Late Cretaceous. The maximum bound for the age of this clade has been pushed into the middle or even Early Cretaceous, in large part based on the comprehensive review and reevaluation of important Coniacian-Santonian marine bird faunas in the western interior of North America that lack neornithines but include large numbers of closely related taxa (e.g., Clarke 2004; Longrich et al. 2011; Field et al. 2018b). 
