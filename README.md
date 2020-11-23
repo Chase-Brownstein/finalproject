@@ -111,8 +111,8 @@ The log-likelihood values for the four different analyses generally converged up
 | ------------- | ------------- |----------------|
 | Jarvis et al. hardcal |4|23|
 | Jarvis et al. softcal |4|26|
-| Prum et al. hardcal |3|125|
-| Prum et al. softcal |3|34|
+| Prum et al. hardcal |3|26|
+| Prum et al. softcal |3|12|
 
 ## Discussion
 Dating the early divergences of birds has remained a major challenge in ornithology. Recent studies have emphasized the importance of testing different calibration schemes given the uncertain phylogenetic positions of some important latest Cretaceous fossil avians (e.g., Field et al. 2020a). Berv and Field (2018) also found that the body masses of birds, when considered as continous traits, can effect estimations of the timing of the radiation or radiations that produced extant birds. Because of these issues, the description and phylogenetic analysis of early members of derived clades within Neornithes has formed a major research programme within paleoornithology over the past twenty years. These include the earliest known members of Coliiformes from the Paleogene of southwestern North America (Ksepka et al. 2017), the earliest known Galloanseran from the latest Cretaceous of Belgium (Field et al. 2020), partial skeletons of a possible early anseriform from the latest Cretaceous of Antarctica (Clarke et al. 2005; Clarke et al. 2016), and the reevaluation of the possible earliest representative of Musophagidae  from the Eocene of the Green River Formation in Wyoming (*Foro panarium*; Field and Hsiang, 2018). These discoveries have helped to substantiate a tentatively minimum bound for the divergence time of Neornithes in the middle or Late Cretaceous. The maximum bound for the age of this clade has been pushed into the middle or even Early Cretaceous, in large part based on the comprehensive review and reevaluation of important Coniacian-Santonian marine bird faunas in the western interior of North America that lack neornithines but include large numbers of closely related taxa (e.g., Clarke 2004; Longrich et al. 2011; Field et al. 2018b). 
