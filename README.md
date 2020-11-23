@@ -220,4 +220,4 @@ C.D.B. thanks Jacob Berv for recommending the SortaDate package as a way to sort
 
 39. Ho SYW,  and Phillips MJ. 2009. Accounting for calibration uncertainty in phylogenetic estimation of evolutionary divergence times. Systematic Biology 58(3), 367–380. DOI: 10.1093/sysbio/syp035
 
-40. Yang Z, and Rannala B. 2005. Branch-length prior influences Bayesian posterior probability of phylogeny. Systematic Biology 54(3), 455-470.
+40. Yang Z, and Rannala B. 2005. Branch-length prior influences Bayesian posterior probability of phylogeny. Systematic Biology 54(3), 455-470. DOI: https://doi.org/10.1080/10635150590945313
