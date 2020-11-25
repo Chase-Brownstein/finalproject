@@ -32,7 +32,7 @@ We also used several incomplete records as 'soft' fossil calibrations for clades
 Precise dates for newly introduced fossil calibrations were taken from the literature referenced in Table 1. The final dataset comprised 45 distinct fossil calibration ages spanning the avian tree of life and is included in this repository as Hoatzin_calibrations.xlsx . 
 
 **Table 1. Revision calibration list.** 
-![Table 1.](https://github.com/Chase-Brownstein/finalproject/blob/master/Hoatzin%20Phylogenetic%20Data%20.xlsx) 
+![Table 1.](https://github.com/Chase-Brownstein/finalproject/blob/master/Hoatzin_calibrations%20(1).xlsx) 
 
 ![Figure 3.](https://github.com/Chase-Brownstein/finalproject/blob/master/Figure%203.jpg)
 
