@@ -32,7 +32,66 @@ We also used several incomplete records as 'soft' fossil calibrations for clades
 Precise dates for newly introduced fossil calibrations were taken from the literature referenced in Table 1. The final dataset comprised 45 distinct fossil calibration ages spanning the avian tree of life and is included in this repository as Hoatzin_calibrations.xlsx . 
 
 **Table 1. Revision calibration list.** 
-![Table 1.](https://github.com/Chase-Brownstein/finalproject/blob/master/Hoatzin_calibrations%20(1).xlsx) 
+|   Taxon  |   Min. age (Ma)  |   Calibrates  |   From  |   Add. citation  |   Original taxon if replaced/Pruning  |   Hard or Soft Calibration?  |   Used In?   |
+|-|-|-|-|-|-|-|-|
+|   Rupelramphastoides  |   28.3  |   Stem Pici (all Piciformes except Bucconidae and Galbulidae)  |   Jarvis et al. 2014; Prum et al. 2015  |   Mayr 2005  |     |   Hard  |   Prum analyses  |
+|   Messelirrisor grandis  |   46.6  |   Stem Upupidae + Phoeniculidae  |   Jarvis et al. 2014; Prum et al. 2015  |   Mayr 2000  |     |   Hard  |   Prum analyses  |
+|   Septencoracias morsensis  |   54  |   Stem Coraciidae + Brachypteraciidae  |   Prum et al. 2015  |   Bourdon et al. 2016  |   Primobucco mcgrewi (Prum et al. 2015)  |   Hard  |   Prum analyses  |
+|   Pulchrapollia gracilis  |   53.5  |   Stem Psittaciformes  |   Prum et al. 2015  |   Dyke and Cooper 2000  |  |   Hard  |   Jarvis, Prum analyses  |
+|   Limnofregata hutchisoni  |   54  |   Stem Fregatidae  |   Prum et al. 2015  |   Stidham 2014  |   Limnofregata azygosternon (Jarvis et al. 2014; Prum et al. 2015)  |   Hard  |   Prum analyses  |
+|   Waimanu manneringi  |   60.5  |   Stem Sphenisciformes  |   Jarvis et al. 2014; Prum et al. 2015  |   Slack et al. 2006  |  |   Hard  |   Jarvis, Prum analyses  |
+|   Parvigrus pohli  |   28.3  |   Stem Gruoidea  |   Prum et al. 2015  |   Mayr 2005  |     |   Hard  |   Prum analyses  |
+|   Lithoptila abdounensis  |   55.6  |   Stem Phaethontidae  |   Prum et al. 2015  |   Bourdon et al. 2005  |   Prophaethon shrubsolei (Jarvis et al. 2014)  |   Hard  |   Jarvis, Prum analyses  |
+|   Scaniacypselus wardi  |   48.4  |   Stem Apodidae  |   Jarvis et al. 2014; Prum et al. 2015  |   Chen et al. 2019  |  |   Hard  |   Jarvis, Prum analyses  |
+|   Fluvioviridavus platyrhamphus  |   51.58  |   Stem Podargidae  |   Prum et al. 2015  |   Nesbitt et al. 2011  |  |   Hard  |   Prum analyses  |
+|   Prefica nivea  |   51.58  |   Stem Steatornithidae  |   Jarvis et al., 2014; Prum et al. 2015  |   Olson 1987  |     |   Hard  |   Prum analyses  |
+|   Tsidiiyazhi abini  |   62.517  |   Stem Colliformes  |   Prum et al. 2015  |   Ksepka et al. 2017  |   Septencoracias morsensis et al. (Jarvis et al. 2014); Sandcoleus copiosus (Prum et al. 2014)  |   Hard  |   Jarvis, Prum analyses  |
+|   Quasisyndactylus longibrachis  |   47.5  |   Stem Alcediniformes (Momotidae + Meropidae + Alcedinidae + Todidae)  |   Prum et al. 2015  |   Mayr 2004a  |     |   Hard  |   Prum analyses  |
+|   Palaeotodus cf. itardiensis  |   28.3  |   Stem Todidae  |   Prum et al. 2015  |   Mayr 2007a  |     |   Hard  |   Prum analyses  |
+|   Oligocrax stoeffelensis  |   24.52  |   Stem Phalacrocoracidae  |   Jarvis et al. 2014; Prum et al. 2015  |   Mayr 2007b  |     |   Hard  |   Jarvis, Prum analyses  |
+|   Foro panarium  |   51.58  |   Stem Musophagidae  |   Prum et al. 2015  |   Field and Hsiang 2018  |   Gen. et sp. indet. (Jarvis et al. 2014)  |   Hard  |   Jarvis, Prum analyses  |
+|   Gallinuloides wyomingensis  |   51.58  |   Stem Galliformes  |   Jarvis et al. 2014; Prum et al. 2015  |   Mayr 2004b  |     |   Hard  |   Jarvis, Prum analyses  |
+|   Eocypselus rowei  |   51.58  |   Stem Apodiformes  |   Prum et al. 2015  |   Ksepka et al. 2013  |   Eocypselus vincenti (Jarvis et al. 2014)  |   Hard  |   Jarvis, Prum analyses  |
+|   Paraprefica kelleri  |   47  |   Caprimulgiformes  |   Jarvis et al. 2014  |   Mayr et al. 1999  |  |   Hard  |   Jarvis, Prum analyses  |
+|   Asteriornis maastrichtensis   |   66.7  |   Stem Galloanseres  |   Field et al. 2020  |  |     |   Hard  |   Jarvis, Prum analyses  |
+|   Laornis edvardsanius  |   66.7  |   Stem Anseriformes  |   Brownstein et al. in review  |  |     |   Soft  |   Jarvis, Prum analyses  |
+|   Conflicto antarcticus   |   61  |   Stem Anseriformes  |   Tambussi et al. 2019  |  |   Vegavis iaai (Jarvis et al. 2014); Anatalavis oxfordi (Jarvis et al. 2014)  |   Hard  |   Prum analyses  |
+|   Lithornis sp.  |   66.7  |   Stem Paleognathae  |   Hope and Parris, 2002; Brownstein et al. in review  |  |  |   Soft  |   Jarvis, Prum analyses  |
+|   Lithornis vulturinus  |   55  |   Stem Paleognathae  |   Leonard et al. 2005  |  |     |   Hard  |   Jarvis, Prum analyses  |
+|   New genus wetmorei  |   47.8  |   Stem Opisthocomidae (soft)  |   Brownstein, Forcellati et al.   |  |   Hoazinavis (Jarvis et al. 2014)  |   Soft  |   Jarvis, Prum analyses  |
+|   Hoazinoides magdalenae  |   5.333  |   Stem Opisthocomidae  |   Miller 1953  |     |     |   Hard  |   Jarvis, Prum analyses  |
+|   Bathornis grallator  |   46.2  |   Stem Cariamiformes (soft)  |   Mayr 2016  |     |   Idiornis tuberculata; Elaphrocnemus phasianus (Jarvis et al., 2014)  |   Soft  |   Jarvis, Prum analyses  |
+|   Miocariama patagonica  |   15.97  |   Stem Cariamidae  |   Mayr and Noriega 2013  |  |     |   Hard  |   Jarvis, Prum analyses  |
+|   Pellornis mikkelseni  |   54.09  |   Stem Gruiformes  |   Musser et al. 2019  |  |   Belgirallus oligocaenus and B. minutus (Jarvis et al. 2014)  |   Hard  |   Jarvis, Prum analyses  |
+|   Aviraptor longicrus  |   30  |   Stem Accipitridae  |   Mayr and Hurum 2020  |  |     |   Hard  |   Jarvis, Prum analyses  |
+|   Eozygodactylus americanus  |   51.81  |   Passeriformes  |   Oliveros et al. 2019  |   Ksepka et al. 2017  |  |   Hard  |   Jarvis, Prum analyses  |
+|   Pediohierax ramenta  |   16  |   Stem Falconidae  |   Oliveros et al. 2019  |  |     |   Hard  |   Jarvis, Prum analyses  |
+|   Nelepsittacus minimus  |   15.9  |   Crown Nestoridae  |   Oliveros et al. 2019  |  |     |   Hard  |   Jarvis, Prum analyses  |
+|   Kuiornis indicator  |   15.9  |   Crown Acanthisittidae   |   Oliveros et al. 2019  |  |     |   Hard  |   Jarvis, Prum analyses  |
+|   Menura tyawanoides  |   16  |   Atrichornis+Menura  |   Oliveros et al. 2019  |  |     |   Hard  |   Prum analyses  |
+|   Certhiops rummeli  |   17.2  |   Regulidae+Certhioidea  |   Oliveros et al. 2019  |  |     |   Hard  |   Prum analyses  |
+|   Tinamidae indet.  |  |   Tinamidae  |   Jarvis et al. 2014  |  |   Pruned  |     |     |
+|   Leptoganga sepultus  |  |   Stem-Pterocliformes  |   Jarvis et al. 2014  |  |   Pruned  |     |     |
+|   Columbina prattae   |  |   Columbidae  |   Jarvis et al. 2014  |  |   Pruned  |     |     |
+|   Adelalopus hoogbutseliensis  |  |   Grebe-Flamingo stem group  |   Jarvis et al. 2014  |  |   Pruned  |     |     |
+|   Miobaptus walteri  |  |   Podicipedidae  |   Jarvis et al. 2014  |  |   Pruned  |     |     |
+|   Colymboides minitus  |  |   Gaviidae  |   Jarvis et al. 2014  |  |   Pruned  |     |     |
+|   Diomedeoides brodkorbi  |  |   Procellariformes  |   Jarvis et al. 2014  |  |   Pruned  |     |     |
+|   Boutersemia belgica and B. parvula  |  |   Charadriiformes  |   Jarvis et al. 2014  |  |   Pruned  |     |     |
+|   Proardea amissa  |  |   "Pelecaniformes  |   Jarvis et al. 2014  |  |   Pruned  |     |     |
+|   Ogygoptynx wetmorei  |  |   Stem-Strigiformes  |   Jarvis et al. 2014  |  |   Pruned  |     |     |
+|   Horusornis vianeyliaudae  |  |   stem-Accipitriformes  |   Jarvis et al. 2014  |  |   Pruned; see above for stem-Accipitridae  |  |  |
+|   Plesiocathartes kelleri  |  |   Plesiocathartidae  |   Jarvis et al. 2014  |  |   Pruned; uncertain phylogenetic position  |  |  |
+|   Paleopsilopterus itaboraiensis  |  |   Cariamiformes  |   Jarvis et al. 2014  |  |   Pruned  |     |     |
+|   Coraciopasseres indet  |  |   Coraciopasseres  |   Jarvis et al. 2014  |  |   Pruned  |     |     |
+|   ?Eurylaimidae gen indet, sp indet  |  |   Tyranni  |   Jarvis et al. 2014  |  |   Pruned  |     |     |
+|   Miocorvus larteti  |  |   Corvidae  |   Jarvis et al. 2014  |  |   Pruned  |     |     |
+|   Struthio coppensi  |   20  |   Struthionidae  |   Jarvis et al. 2014  |   Mourer-Chauviré et al. 1996  |   Redundant age (see above)  |  |  |
+|   Harrisonavis croizeti  |   23.03  |   Phoenicopteridae  |   Jarvis et al. 2014  |   Torres et al. 2015  |   Redundant age (see above)  |  |  |
+|   Septentrogon madseni  |   48.6  |   Trogoniformes  |   Jarvis et al. 2014  |   Kristoffersen 2002  |   Redundant age (see above)  |  |  |
+|   Eurotrochilus inexpectatus  |   32  |   Trochlii  |   Jarvis et al. 2014  |   Mayr 2007  |   Redundant age (see above)  |  |  |
+|   Rhynchaeites sp.  |   53.9  |   Stem Threskiornithidae  |   Jarvis et al. 2014; Prum et al. 2015  |   Mayr and Bertelli 2011  |   Redundant age (see above)  |  |  |
+|   Suboscines indet.  |   27.25  |   Crown Eupasseres  |   Oliveros et al. 2019  |  |   Pruned  |     |     |
 
 ![Figure 3.](https://github.com/Chase-Brownstein/finalproject/blob/master/Figure%203.jpg)
 
